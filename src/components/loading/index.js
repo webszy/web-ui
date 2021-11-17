@@ -133,5 +133,12 @@ class WbLoading extends HTMLElement {
 
 export default {
     name:'wb-loading',
-    component:WbLoading
+    component:WbLoading,
+    _load(){
+        if(!customElements.get('wb-loading')){
+            customElements.define('wb-loading', WbLoading);
+        } else {
+            console.warn('web-ui has loaded wb-loading')
+        }
+    }
 }

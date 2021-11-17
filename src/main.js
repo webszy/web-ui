@@ -25,6 +25,7 @@ export default class WebUI{
         }
     }
 }
+
 if(process.env.NODE_ENV === 'development'){
     new WebUI()
 }
