@@ -6,7 +6,7 @@
 
 > You can find more information on the [repo wiki](https://github.com/webszy/web-ui/wiki)
 ## current work
-[x] Loading  
+[x] [Loading](https://github.com/webszy/web-ui/wiki/Components:-Loading)  
 [ ] Toast  
 [ ] Message  
 [ ] Alert and Confirm and Prompt  
