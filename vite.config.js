@@ -1,7 +1,16 @@
 import { defineConfig } from 'vite'
 import * as path from 'path'
+import Banner from 'vite-plugin-banner'
+import {version}from './package.json'
 export default defineConfig({
     root: path.resolve(__dirname,'./src'),
+    plugins: [
+        Banner(`
+        * name: @webszy/ui
+        * version:${version}
+        * time:${new Date().toISOString()}
+        `),
+    ],
     build: {
         outDir:path.resolve(__dirname,'./dist'),
         target:'es6',
