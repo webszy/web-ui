@@ -30,7 +30,7 @@ class WbLoading extends HTMLElement {
         let template = document.createDocumentFragment()
         // 加载css
         const css = document.createElement('style')
-        css.innerHTML = style
+        css.innerHTML = style.replace(/(\r\n)|(\n)/g,'')
         template.appendChild(css)
         const { divCount } = this.getConfig(name)
         const screenDiv = genDiv('full-screen')
