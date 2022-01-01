@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as o}from"./app.9d2a5e9e.js";const m='{"title":"web-ui-docs","description":"","frontmatter":{},"relativePath":"README.md","lastUpdated":1641050531990}',s={},c=o("h1",{id:"web-ui-docs",tabindex:"-1"},"web-ui-docs",-1),d=[c];function r(n,i,_,p,l,u){return a(),t("div",null,d)}var h=e(s,[["render",r]]);export{m as __pageData,h as default};
