@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as o}from"./app.9d2a5e9e.js";const g='{"title":"Loading","description":"","frontmatter":{},"relativePath":"components/Loading.md","lastUpdated":1641050167603}',n={},s=o("h1",{id:"loading",tabindex:"-1"},"Loading",-1),d=[s];function c(i,r,_,p,l,f){return a(),t("div",null,d)}var h=e(n,[["render",c]]);export{g as __pageData,h as default};

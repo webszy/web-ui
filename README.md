@@ -4,7 +4,7 @@
 + easy to use 
 + compatible all the js frameworks
 
-> You can find more information on the [repo wiki](https://github.com/webszy/web-ui/wiki)
+> You can find more information on the [webui.site](https://webui.ste)
 ## current work
 - [x] [Loading](https://github.com/webszy/web-ui/wiki/Components:-Loading)  
 - [ ] Toast  
